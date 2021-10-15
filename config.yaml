@@ -8,15 +8,14 @@ params:
   banner:
     buttonText: Get Started
     subtitle: |-
-      A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
-      AND RELEASED UNDER THE CREATIVE COMMONS.
+      Welcome to Sylvia's portfolio website! Here I post my biography, blogs as well as data analysis projects.
     title: Hi, my name is Xingyu Hu
   blog: {}
   contact:
     address:
-      - city: London, ST NW19HL
+      - city: London, NW14SAL
         country: United Kingdom
-        street: Camden
+        street: Regent's Park
         title: Address
     buttonClear: Clear
     buttonSend: Send message
@@ -44,19 +43,19 @@ params:
     social:
       - icon: fa-twitter
         label: Twitter
-        url: https://www.twitter.com
+        url: https://www.twitter.com/SylviaHu08
       - icon: fa-facebook
         label: Facebook
-        url: https://www.facebook.com/
+        url: https://www.facebook.com/xingyu.hu.35
       - icon: fa-instagram
         label: Instagram
-        url: https://www.instagram.com/sylvia_xyhu/
+        url: https://www.instagram.com/sylvia_xyhu
       - icon: fa-github
         label: GitHub
-        url: https://www.github.com
+        url: https://www.github.com/Sylvia199808
       - icon: fa-linkedin
         label: LinkedIn
-        url: https://www.linkedin.com/in/xingyu-hu-sylvia/
+        url: https://www.linkedin.com/in/xingyu-hu-sylvia
   image: ''
   name: Your name
   navigation:
@@ -76,8 +75,8 @@ params:
       - name: Elements
         url: elements.html
     menu: Menu
-    subtitle: By HTML5 Up
-    title: Forty
+    subtitle: Portfolio Website
+    title: Sylvia Hu
   tiles:
     enable: yes
     showcase:

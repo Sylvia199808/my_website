@@ -24,8 +24,9 @@ Here are a few things to help you know more about me :)
 <center class="half">
     <img src="D:\LBS Courses\R\my_website\content\blogs\graduation.jpg" height = "300">   <img src="D:\LBS Courses\R\my_website\content\blogs\library.jpg" height ="300">
 </center>
-```{r}
-knitr::include_graphics("/img/graduation.jpg", error =FALSE)
+
+```{r, echo=FALSE, out.width = '30%'}
+knitr::include_graphics(c("/img/graduation.jpg", "/img/library.jpg"), error =FALSE)
 ```
 
     

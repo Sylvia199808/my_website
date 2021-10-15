@@ -35,7 +35,7 @@ Here are a few things to help you know more about me :)
     * I like painting a lot for it is relief from stress and always gives me sense of tranquility.
     
 <center class="half">
-    <img src="D:\LBS Courses\R\my_website\content\blogs\painting.jpg" height = "300"> 
+    <img src="D:\LBS Courses\R\my_website\static\image\blogs\painting.jpg" height = "300"> 
 </center>   
     * I love traveling and plan to explore more during this year in London. Hope Covid-19 situation gets better soon!
     * I am obsessed with cooking and want to be a vloger in the future!

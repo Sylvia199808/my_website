@@ -20,9 +20,13 @@ Here are a few things to help you know more about me :)
     * Before studying business, I studied Chemistry for 2 years during undergraduate study.
     * I went to [University of San Diego](https://www.sandiego.edu/) for exchange in Fall 2019. 
 
+
 <center class="half">
     <img src="D:\LBS Courses\R\my_website\content\blogs\graduation.jpg" height = "300">   <img src="D:\LBS Courses\R\my_website\content\blogs\library.jpg" height ="300">
 </center>
+```{r}
+knitr::include_graphics("/img/graduation.jpg", error =FALSE)
+```
 
     
 2. Career

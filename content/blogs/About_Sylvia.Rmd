@@ -21,12 +21,8 @@ Here are a few things to help you know more about me :)
     * I went to [University of San Diego](https://www.sandiego.edu/) for exchange in Fall 2019. 
 
 
-<center class="half">
-    <img src="D:\LBS Courses\R\my_website\content\blogs\graduation.jpg" height = "300">   <img src="D:\LBS Courses\R\my_website\content\blogs\library.jpg" height ="300">
-</center>
-
-```{r, echo=FALSE, out.width = '30%'}
-knitr::include_graphics(c("/img/graduation.jpg", "/img/library.jpg"), error =FALSE)
+```{r, echo=FALSE, out.width = '30%', out.height='30%', fig.align = 'center'}
+knitr::include_graphics(c("/img/graduation.jpg", "","/img/library.jpg"), error =FALSE)
 ```
 
     

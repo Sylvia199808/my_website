@@ -22,9 +22,12 @@ Here are a few things to help you know more about me :)
 
 
 ```{r, echo=FALSE, out.width = '30%', out.height='30%', fig.align = 'center'}
-knitr::include_graphics(c("/img/graduation.jpg", "","/img/library.jpg"), error =FALSE)
+knitr::include_graphics(c("/img/graduation.jpg","/img/library.jpg"), error =FALSE)
 ```
 
+<center class="half">
+    <img src="D:\LBS Courses\R\my_website\static\img\graduation.jpg" height = "300">   <img src="D:\LBS Courses\R\my_website\static\img\library.jpg" height ="300">
+</center>
     
 2. Career
     * During my undergraduate study, I interned in many sectors of Financial Industry:

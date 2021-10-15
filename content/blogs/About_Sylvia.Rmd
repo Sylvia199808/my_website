@@ -1,0 +1,30 @@
+---
+date: "2021-10-15"
+description: About Sylvia # the title that will show up once someone gets to this page
+draft: false
+image: spices.jpg # save picture in \static\img\blogs. Acceptable formats= jpg, jpeg, or png . Your iPhone pics wont work
+
+keywords: ""
+slug: About_Sylvia # slug is the shorthand URL address... no spaces plz
+title: About Sylvia
+---
+
+# Biography of Sylvia Hu
+
+I was born in Chongqing, a city located in the southwest of China, in 1998. I am now currently pursuing *Masters in Financial Analysis* degree at **London Business School**.
+
+1. Education Background
+    * 2021-2023: London Business School, London, UK/Fudan University, Shanghai, CN
+        - Reading for Masters in Financial Analysis Degree (Dual Degree Program)
+    * 2016-2021: Fudan University, Shanghai, CN
+        - BBA Financial Management
+2. Business Experience
+    * Mar 2021-Jun 2021: Spring Gate Capital, Shanghai, CN
+        - Equity Investment Research Analyst
+    * Sept 2020-Dec 2020: China International Capital Corporation, Shanghai, CN
+        - Investment Banking Intern
+    * Jul 2020-Sept 2020: China Securities, Shanghai,CN
+        - Bond Underwriting Intern
+3. Skills & Interests
+    * Skills:Wind, Capital IQ, R, Python, Excel (VBA), PPT, Think-Cell, Tableau
+    * Interest:Painting (Sketching, Gouache, Vice President of Seven-Art drawing club at Fudan University), Piano, Photography, Tennis, Travelling

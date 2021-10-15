@@ -1,6 +1,6 @@
 baseURL: https://sylvia-hu.netlify.app/
 languageCode: en-us
-title: Forty
+title: Portfolio website for Sylvia Hu
 theme: forty
 googleAnalytics: ''
 disqusShortname: ''
@@ -35,7 +35,7 @@ params:
     text: Please visit [this page](/)
   favicon: favicon.ico
   footer:
-    copyright: Company Name
+    copyright: Sylvia Hu
     enable: yes
     quicklinks:
       - alt: HTML5 UP
@@ -56,7 +56,7 @@ params:
         url: https://www.github.com
       - icon: fa-linkedin
         label: LinkedIn
-        url: https://www.linkedin.com
+        url: https://www.linkedin.com/in/xingyu-hu-sylvia/
   image: ''
   name: Your name
   navigation:

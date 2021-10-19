@@ -35,7 +35,7 @@ knitr::include_graphics(c("/img/graduation.jpg","/img/library.jpg"), error =FALS
     * I like painting a lot for it is relief from stress and always gives me sense of tranquility.
 
 ```{r, echo=FALSE, out.width = '30%', out.height='30%'}
-knitr::include_graphics(c("/img/graduation.jpg","/img/library.jpg"), error =FALSE)
+knitr::include_graphics("/img/painting.jpg", error =FALSE)
 ```
 
     * I love traveling and plan to explore more during this year in London. Hope Covid-19 situation gets better soon!
@@ -43,7 +43,7 @@ knitr::include_graphics(c("/img/graduation.jpg","/img/library.jpg"), error =FALS
     * I am a pet lover and my family keep a dog and a cat.
 
 ```{r, echo=FALSE, out.width = '30%', out.height='30%'}
-knitr::include_graphics(c("/img/graduation.jpg","/img/library.jpg"), error =FALSE)
+knitr::include_graphics(c("/img/rocker.jpg","/img/gulu.jpg"), error =FALSE)
 ```
-    
+
     

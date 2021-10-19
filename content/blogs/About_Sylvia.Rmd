@@ -33,7 +33,8 @@ Here are a few things to help you know more about me :)
     * I am a pet lover and my family keep a dog and a cat.
 
 ```{r, echo=FALSE, out.width = '30%', out.height='30%'}
-knitr::include_graphics(c("/img/rocker.jpg","/img/gulu.jpg"), error =FALSE)
+knitr::include_graphics("/img/rocker.jpg", error =FALSE)
+knitr::include_graphics("/img/gulu.jpg", error =FALSE)
 ```
 
     

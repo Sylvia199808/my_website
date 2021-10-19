@@ -20,14 +20,10 @@ Here are a few things to help you know more about me :)
     * Before studying business, I studied Chemistry for 2 years during undergraduate study.
     * I went to [University of San Diego](https://www.sandiego.edu/) for exchange in Fall 2019. 
 
-
-```{r, echo=FALSE, out.width = '30%', out.height='30%', fig.align = 'center'}
+```{r, echo=FALSE, out.width = '30%', out.height='30%'}
 knitr::include_graphics(c("/img/graduation.jpg","/img/library.jpg"), error =FALSE)
 ```
 
-<center class="half">
-    <img src="D:\LBS Courses\R\my_website\static\img\graduation.jpg" height = "300">   <img src="D:\LBS Courses\R\my_website\static\img\library.jpg" height ="300">
-</center>
     
 2. Career
     * During my undergraduate study, I interned in many sectors of Financial Industry:
@@ -37,16 +33,17 @@ knitr::include_graphics(c("/img/graduation.jpg","/img/library.jpg"), error =FALS
  
 3. Life
     * I like painting a lot for it is relief from stress and always gives me sense of tranquility.
-    
-<center class="half">
-    <img src="D:\LBS Courses\R\my_website\static\img\blogs\painting.jpg" height = "300"> 
-</center>   
+
+```{r, echo=FALSE, out.width = '30%', out.height='30%'}
+knitr::include_graphics(c("/img/graduation.jpg","/img/library.jpg"), error =FALSE)
+```
+
     * I love traveling and plan to explore more during this year in London. Hope Covid-19 situation gets better soon!
     * I am obsessed with cooking and want to be a vloger in the future!
-    * I am a pet lover who plans to keep a pet after graduation. I play a lot with a dog and cat kept by my cousins. They are called *Rocker* and *Gulu*.
+    * I am a pet lover and my family keep a dog and a cat.
 
-<center class="half">
-    <img src="D:\LBS Courses\R\my_website\content\blogs\rocker.jpg" height = "300">   <img src="D:\LBS Courses\R\my_website\content\blogs\gulu.jpg" height ="300">
-</center>   
+```{r, echo=FALSE, out.width = '30%', out.height='30%'}
+knitr::include_graphics(c("/img/graduation.jpg","/img/library.jpg"), error =FALSE)
+```
     
     

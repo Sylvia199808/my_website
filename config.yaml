@@ -1,30 +1,31 @@
-baseURL: https://sylvia-hu.netlify.app/
+baseURL: http://example.org/
 languageCode: en-us
-title: Portfolio website for Sylvia Hu
-theme: Forty
+title: Forty
+theme: forty
 googleAnalytics: ''
 disqusShortname: ''
 params:
   banner:
     buttonText: Get Started
     subtitle: |-
-      Welcome to Sylvia's portfolio website! Here I post my biography, blogs as well as data analysis projects.
-    title: Hi, my name is Sylvia Hu
+      A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
+      AND RELEASED UNDER THE CREATIVE COMMONS.
+    title: Hi, my name is Forty
   blog: {}
   contact:
     address:
-      - city: London, NW14SAL
-        country: United Kingdom
-        street: Regent's Park
+      - city: City, ST 00000
+        country: Country
+        street: Street
         title: Address
     buttonClear: Clear
     buttonSend: Send message
     email:
-      - email: Sylvia@gmail.com
+      - email: example@domain.com
         title: Email
     enable: yes
     phone:
-      - phone: (+44) 123-8989 x1234
+      - phone: (000) 000-0000 x1234
         title: Phone
   custom_css: []
   custom_js: []
@@ -34,7 +35,7 @@ params:
     text: Please visit [this page](/)
   favicon: favicon.ico
   footer:
-    copyright: Sylvia Hu
+    copyright: Company Name
     enable: yes
     quicklinks:
       - alt: HTML5 UP
@@ -43,19 +44,19 @@ params:
     social:
       - icon: fa-twitter
         label: Twitter
-        url: https://www.twitter.com/SylviaHu08
+        url: https://www.twitter.com
       - icon: fa-facebook
         label: Facebook
-        url: https://www.facebook.com/xingyu.hu.35
+        url: https://www.facebook.com
       - icon: fa-instagram
         label: Instagram
-        url: https://www.instagram.com/sylvia_xyhu
+        url: https://www.instagram.com
       - icon: fa-github
         label: GitHub
-        url: https://www.github.com/Sylvia199808
+        url: https://www.github.com
       - icon: fa-linkedin
         label: LinkedIn
-        url: https://www.linkedin.com/in/xingyu-hu-sylvia
+        url: https://www.linkedin.com
   image: ''
   name: Your name
   navigation:
@@ -75,19 +76,19 @@ params:
       - name: Elements
         url: elements.html
     menu: Menu
-    subtitle: Portfolio Website
-    title: Sylvia Hu
+    subtitle: By HTML5 Up
+    title: Forty
   tiles:
     enable: yes
     showcase:
-      - image: lbs.jpg
-        subtitle: Biography
-        title: About me
-        url: blogs/About_Sylvia
-      - image: stock01.jpg
-        subtitle: DJIA performance
-        title: Risk Return of DJIA Industrial Average
-        url: blogs/risk_return
+      - image: pic01.jpg
+        subtitle: Ipsum Dolor Sit Amet
+        title: Aliquam
+        url: blogs/aliquam
+      - image: pic02.jpg
+        subtitle: Feugiat Amet Tempus
+        title: Tempus
+        url: blogs/tempus
       - image: pic03.jpg
         subtitle: Lorem Etiam Nullam
         title: Magna

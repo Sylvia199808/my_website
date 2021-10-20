@@ -28,3 +28,12 @@ knitr::include_graphics("/img/lajolla3.jpg", error =FALSE)
 ```{r, echo=FALSE}
 knitr::include_graphics("/img/lajolla4.jpg", error =FALSE)
 ```
+
+## University of San Diego
+```{r, echo=FALSE}
+knitr::include_graphics("/img/usd1.jpg", error =FALSE)
+```
+
+```{r, echo=FALSE}
+knitr::include_graphics("/img/usd2.jpg", error =FALSE)
+```

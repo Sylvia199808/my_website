@@ -37,3 +37,12 @@ knitr::include_graphics("/img/usd1.jpg", error =FALSE)
 ```{r, echo=FALSE}
 knitr::include_graphics("/img/usd2.jpg", error =FALSE)
 ```
+
+## Mission Beach at San Diego
+```{r, echo=FALSE}
+knitr::include_graphics("/img/mb1.jpg", error =FALSE)
+```
+
+```{r, echo=FALSE}
+knitr::include_graphics("/img/mb2.jpg", error =FALSE)
+```

@@ -61,7 +61,7 @@ params:
   navigation:
     button1:
       - name: Get Started
-        url: blogs
+        url: '#'
     button2:
       - name: Log In
         url: '#'
@@ -113,5 +113,5 @@ params:
     \r\n I love to make friends and would like to share more with you.
     \r\n If you are interested, please find my social media accounts down below and get connected!"
     title: Get Connected
-    url: blogs
+    url: '#'
   

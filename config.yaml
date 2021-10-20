@@ -97,9 +97,9 @@ params:
         title: GDP components over time and among countries
         url: blogs/GDP
       - image: whitman.jpg
-        subtitle: Analysis of a Whitman's poem
+        subtitle: Analysis of a Whitman's Poem
         title: WALT WHITMAN’S “SONG AT SUNSET”: BROAD LOVE FOR NATURE, AMERICA AND PEOPLE.
-        url: /img/blogs/song_at_sunset.pdf
+        url: img/blogs/song_at_sunset.pdf
       - image: pic06.jpg
         subtitle: Feugiat Amet Tempus
         title: Etiam

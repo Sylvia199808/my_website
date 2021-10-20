@@ -89,15 +89,15 @@ params:
       - image: stock01.jpg
         subtitle: DJIA performance
         title: Risk Return of DJIA Industrial Average
-        url: blogs/PJ/risk_return
+        url: blogs/PJ
       - image: rating.jpg
         subtitle: Difference for Spielberg and Tim Burton
         title: Mean IMDB Ratings
-        url: blogs/PJ/directors
+        url: blogs/PJ
       - image: cpi01.jpg
         subtitle: How has the CPI and its components changed over the last few years
         title: CPI Components Yearly Change 
-        url: blogs/PJ/CPI
+        url: blogs/PJ
       - image: whitman.jpg
         subtitle: Analysis of a Whitman's Poem
         title: Broad Love For Nature, America And People

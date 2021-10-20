@@ -84,10 +84,10 @@ params:
         subtitle: Biography
         title: About me
         url: blogs/About_Sylvia
-      - image: pic02.jpg
-        subtitle: Feugiat Amet Tempus
-        title: Tempus
-        url: blogs/tempus
+      - image: stock01.jpg
+        subtitle: DJIA performance
+        title: Risk Return of DJIA Industrial Average
+        url: blogs/risk_return
       - image: pic03.jpg
         subtitle: Lorem Etiam Nullam
         title: Magna

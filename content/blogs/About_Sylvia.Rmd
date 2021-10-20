@@ -39,4 +39,3 @@ knitr::include_graphics("/img/painting.jpg", error =FALSE)
 knitr::include_graphics("/img/rocker.jpg", error =FALSE)
 ```
 
-    

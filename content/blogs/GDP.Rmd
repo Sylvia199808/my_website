@@ -44,7 +44,8 @@ library(scales)
 
 ```{r read_GDP_data}
 
-UN_GDP_data  <-  read_csv(here::here("data", "GDP.csv"), # csv filename
+UN_GDP_data  <-  read_excel(here::here("data", "Download-GDPconstant-USD-countries.xlsx"), # Excel filename
+                sheet="Download-GDPconstant-USD-countr", # Sheet name
                 skip=2) # Number of rows to skip
 
 ```

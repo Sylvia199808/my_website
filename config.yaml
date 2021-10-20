@@ -96,10 +96,10 @@ params:
         subtitle: Comparison among France, China and United States
         title: GDP components over time and among countries
         url: blogs/GDP
-      - image: pic05.jpg
-        subtitle: Ipsum Dolor Sit Amet
-        title: Consequat
-        url: blogs/ipsum
+      - image: whitman.jpg
+        subtitle: Analysis of a Whitman's poem
+        title: WALT WHITMAN’S “SONG AT SUNSET”: BROAD LOVE FOR NATURE, AMERICA AND PEOPLE.
+        url: blogs/song_at_sunset
       - image: pic06.jpg
         subtitle: Feugiat Amet Tempus
         title: Etiam

@@ -57,5 +57,5 @@ knitr::include_graphics("/img/s1.jpg", error =FALSE)
 ```
 
 ```{r, echo=FALSE}
-knitr::include_graphics("/img/s1.jpg", error =FALSE)
+knitr::include_graphics("/img/s2.jpg", error =FALSE)
 ```

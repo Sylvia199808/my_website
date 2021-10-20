@@ -1,7 +1,7 @@
 baseURL: https://sylvia-hu.netlify.app/
 languageCode: en-us
 title: Portfolio website for Sylvia Hu
-theme: forty
+theme: Eureka
 googleAnalytics: ''
 disqusShortname: ''
 params:

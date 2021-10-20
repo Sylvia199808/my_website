@@ -94,10 +94,10 @@ params:
         subtitle: Difference for Spielberg and Tim Burton
         title: Mean IMDB Ratings
         url: blogs/PJ/directors
-      - image: gdp01.jpg
-        subtitle: Comparison among France, China and United States
-        title: GDP components over time and among countries
-        url: blogs/PJ/GDP
+      - image: cpi01.jpg
+        subtitle: How has the CPI and its components changed over the last few years
+        title: CPI Components Yearly Change 
+        url: blogs/PJ/CPI
       - image: whitman.jpg
         subtitle: Analysis of a Whitman's Poem
         title: Broad Love For Nature, America And People

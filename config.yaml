@@ -5,7 +5,7 @@ theme: forty
 googleAnalytics: ''
 disqusShortname: ''
 params:
-  background:
+  banner: background
     buttonText: Get Started
     subtitle: |-
       Welcome to Sylvia's portfolio website! Here I post my biography, blogs as well as data analysis projects.

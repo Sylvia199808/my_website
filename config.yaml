@@ -13,9 +13,9 @@ params:
   blog: {}
   contact:
     address:
-      - city: London, NW14SAL
+      - city: London
         country: United Kingdom
-        street: Regent's Park
+        street: Regent's Park, NW14SAL
         title: Address
     buttonClear: Clear
     buttonSend: Send message
@@ -68,12 +68,12 @@ params:
     links:
       - name: Home
         url: '#'
-      - name: Blogs
+      - name: Biography
+        url: blogs/About_Sylvia
+      - name: R Analysis
         url: blogs
-  ##    - name: Generic Blog
-  ##      url: blogs/ipsum
-  ##    - name: Elements
-  ##      url: elements.html
+      - name: Essays
+        url: /img/blogs/song_at_sunset.pdf
     menu: Menu
     subtitle: Portfolio Website
     title: Sylvia Hu

@@ -46,3 +46,16 @@ knitr::include_graphics("/img/mb1.jpg", error =FALSE)
 ```{r, echo=FALSE}
 knitr::include_graphics("/img/mb2.jpg", error =FALSE)
 ```
+
+```{r, echo=FALSE}
+knitr::include_graphics("/img/mb3.jpg", error =FALSE)
+```
+
+## Santa Monica at Los Angeles
+```{r, echo=FALSE}
+knitr::include_graphics("/img/s1.jpg", error =FALSE)
+```
+
+```{r, echo=FALSE}
+knitr::include_graphics("/img/s1.jpg", error =FALSE)
+```

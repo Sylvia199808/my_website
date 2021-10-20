@@ -84,7 +84,7 @@ params:
         subtitle: Biography
         title: About me
         url: blogs/About_Sylvia
-      - image: stock.jpg
+      - image: stock01.jpg
         subtitle: DJIA performance
         title: Risk Return of DJIA Industrial Average
         url: blogs/risk_return

@@ -20,7 +20,7 @@ params:
     buttonClear: Clear
     buttonSend: Send message
     email:
-      - email: shu,mfa2022@london.edu
+      - email: shu.mfa2022@london.edu
         title: Email
     enable: yes
     phone:
@@ -80,10 +80,10 @@ params:
   tiles:
     enable: yes
     showcase:
-      - image: pic01.jpg
-        subtitle: Ipsum Dolor Sit Amet
-        title: Aliquam
-        url: blogs/aliquam
+      - image: lbs.jpg
+        subtitle: Biography
+        title: About me
+        url: blogs/About_Sylvia
       - image: pic02.jpg
         subtitle: Feugiat Amet Tempus
         title: Tempus

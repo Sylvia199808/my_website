@@ -71,7 +71,7 @@ params:
       - name: Biography
         url: blogs/About_Sylvia
       - name: R Analysis
-        url: blogs
+        url: blogs/PJ
       - name: Essays
         url: /img/blogs/song_at_sunset.pdf
     menu: Menu

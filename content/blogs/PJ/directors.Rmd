@@ -1,0 +1,122 @@
+---
+date: "2021-10-20"
+description: Mean IMDB Rating Comparison for Steven Spielberg and Tim Burton # the title that will show up once someone gets to this page
+draft: false
+image: movie.jpg # save picture in \static\img\blogs. Acceptable formats= jpg, jpeg, or png . Your iPhone pics wont work
+
+keywords: ""
+slug: directors # slug is the shorthand URL address... no spaces plz
+title: Mean IMDB Rating Comparison for Steven Spielberg and Tim Burton
+---
+
+```{r, setup, echo=FALSE}
+knitr::opts_chunk$set(
+  message = FALSE, 
+  warning = FALSE, 
+  tidy=FALSE,     # display code as typed
+  size="small")   # slightly smaller font for code
+options(digits = 3)
+
+# default figure size
+knitr::opts_chunk$set(
+  fig.width=6.75, 
+  fig.height=6.75,
+  fig.align = "center"
+)
+```
+
+
+```{r load-libraries, echo=FALSE}
+library(tidyverse)  # Load ggplot2, dplyr, and all the other tidyverse packages
+library(mosaic)
+library(ggthemes)
+library(GGally)
+library(readxl)
+library(here)
+library(skimr)
+library(janitor)
+library(broom)
+library(tidyquant)
+library(infer)
+library(openintro)
+library(scales)
+```
+
+# IMDB ratings: Differences between directors
+
+> In this project, I will explore whether the mean IMDB rating for Steven Spielberg and Tim Burton are the same or not. 
+
+First, have a glimpse of the data set.
+```{r load-movies-data}
+movies <- read_csv(here::here("data", "movies.csv"))
+glimpse(movies)
+```
+
+Second, calculate the confidence intervals for the mean ratings of these two directors visualize it.
+```{r fig.width = 10}
+CI_directors <- movies %>% 
+  filter((director == "Tim Burton") | (director == "Steven Spielberg")) %>% 
+  group_by(director)%>%
+  summarise(
+    mean_rating = mean(rating),
+    SD_rating = sd(rating),
+    count_rating = n(),
+    SE_rating = SD_rating/sqrt(count_rating),
+    t_crit = qt(0.975, count_rating-1),  
+    CI_low = mean_rating -t_crit * SE_rating,
+    CI_high = mean_rating +t_crit * SE_rating
+  )
+CI_directors <- data.frame(CI_directors)
+CI_directors$director <- factor(CI_directors$directo, levels = c("Tim Burton","Steven Spielberg"))
+
+CI_directors %>% 
+  ggplot()+
+  geom_errorbar(aes(y = director, 
+                    x = mean_rating,
+                    xmin = CI_low, 
+                    xmax = CI_high,
+                    color = director), width = 0.1, size = 2) +
+  geom_point(aes(x = mean_rating,
+                 y = director,
+                 color = director), size = 5) +
+  scale_colour_manual(values = c("#7FD3EB", "#F08080"))+
+  labs(
+    title = "Do Spielberg and Burton have the same mean IMDB ratings?",
+    subtitle = "95% confidence intervals overlap",x = "Mean IMDB Ratings", y = ""
+      ) +
+  geom_text(aes(x = mean_rating, y = director, label = sprintf("%.2f", mean_rating)), vjust = -2, color="black", size=4.5)+
+  geom_text(aes(x = CI_low, y = director, label = sprintf("%.2f", CI_low)), vjust = -2, color = "black", size = 3.5)+
+  geom_text(aes(x = CI_high, y = director, label = sprintf("%.2f", CI_high)), vjust = -2, color = "black", size = 3.5)+
+  geom_rect(aes(xmin = CI_directors[2,8],xmax = CI_directors[1,7], ymin = -Inf, ymax = Inf), color = "grey", alpha = 0.3)+
+  theme_bw()+
+  NULL
+
+```
+
+
+Third, I will run a hypothesis test：
+
+* H0: IMDB rating for Steven Spielberg and Tim Burton are the same
+* Ha: IMDB rating for Steven Spielberg and Tim Burton are different
+
+```{r}
+Steven_Tim<-movies %>%
+  filter((director == "Tim Burton") | (director == "Steven Spielberg"))
+
+t.test(rating~director, data=Steven_Tim)
+
+set.seed(1234)
+ratings_in_null_world <- Steven_Tim %>%
+  specify (rating ~ director) %>%
+  hypothesize (null = "independence") %>%
+  generate (reps = 1000, type = "permute") %>%
+  calculate (stat = "diff in means", order = c("Steven Spielberg", "Tim Burton"))
+
+ratings_in_null_world %>%
+  visualise() 
+
+ratings_in_null_world %>%
+  get_pvalue(obs_stat = 0.64, direction ="both")
+
+
+```

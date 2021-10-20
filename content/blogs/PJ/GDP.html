@@ -1,0 +1,69 @@
+---
+title: "GDP components over time and among countries"
+description: MGDP components over time and among countries
+date: '2021-10-20'
+image: gdp02.jpg
+keywords: ''
+slug: GDP
+draft: no
+---
+
+
+
+<div id="gdp-components-over-time-and-among-countries" class="section level1">
+<h1>GDP components over time and among countries</h1>
+<pre class="r"><code>UN_GDP_data  &lt;-  read_excel(here::here(&quot;data&quot;, &quot;GDP.xlsx&quot;), # Excel filename
+                sheet=&quot;Download-GDPconstant-USD-countr&quot;, # Sheet name
+                skip=2) # Number of rows to skip</code></pre>
+<div id="tidy-the-data" class="section level2">
+<h2>Tidy the Data</h2>
+<pre class="r"><code>tidy_GDP_data  &lt;-  UN_GDP_data %&gt;% 
+  pivot_longer(cols = 4:51, 
+              names_to = &quot;Year&quot;, 
+              values_to = &quot;GDP&quot;) %&gt;% 
+  transform(GDP = GDP/1e9)
+
+tidy_GDP_data_frame &lt;- data.frame(tidy_GDP_data)
+
+#names
+tidy_GDP_data_frame[tidy_GDP_data_frame == &quot;Imports of goods and services&quot;] &lt;- &quot;Imports&quot;
+tidy_GDP_data_frame[tidy_GDP_data_frame == &quot;Exports of goods and services&quot;] &lt;- &quot;Exports&quot;
+tidy_GDP_data_frame[tidy_GDP_data_frame == &quot;General government final consumption expenditure&quot;] &lt;- &quot;Government expenditure&quot;
+tidy_GDP_data_frame[tidy_GDP_data_frame == &quot;Household consumption expenditure (including Non-profit institutions serving households)&quot;] &lt;- &quot;Household expenditure&quot;
+
+
+glimpse(tidy_GDP_data_frame)</code></pre>
+<pre><code>## Rows: 176,976
+## Columns: 7
+## $ CountryID     &lt;dbl&gt; 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4,~
+## $ Country       &lt;chr&gt; &quot;Afghanistan&quot;, &quot;Afghanistan&quot;, &quot;Afghanistan&quot;, &quot;Afghanista~
+## $ IndicatorName &lt;chr&gt; &quot;Final consumption expenditure&quot;, &quot;Final consumption expe~
+## $ X2018         &lt;dbl&gt; 2.13e+10, 2.13e+10, 2.13e+10, 2.13e+10, 2.13e+10, 2.13e+~
+## $ X2019         &lt;dbl&gt; 2.46e+10, 2.46e+10, 2.46e+10, 2.46e+10, 2.46e+10, 2.46e+~
+## $ Year          &lt;chr&gt; &quot;1970&quot;, &quot;1971&quot;, &quot;1972&quot;, &quot;1973&quot;, &quot;1974&quot;, &quot;1975&quot;, &quot;1976&quot;, ~
+## $ GDP           &lt;dbl&gt; 3.07, 2.96, 2.89, 3.10, 3.33, 3.51, 3.59, 3.83, 3.99, 3.~</code></pre>
+<pre class="r"><code># Let us compare GDP components for these 3 countries
+country_list &lt;- c(&quot;France&quot;,&quot;China&quot;, &quot;United States&quot;)</code></pre>
+</div>
+<div id="visualization" class="section level2">
+<h2>Visualization</h2>
+<pre class="r"><code>tidy_GDP_data_frame_Order &lt;- tidy_GDP_data_frame %&gt;%
+  filter(Country %in% country_list, IndicatorName %in% c(&quot;Gross capital formation&quot;, &quot;Exports&quot;, &quot;Imports&quot;, &quot;Household expenditure&quot;, &quot;Government expenditure&quot;))
+
+tidy_GDP_data_frame_Order[,3]&lt;-factor(tidy_GDP_data_frame_Order[,3], levels = c(&quot;Gross capital formation&quot;, &quot;Exports&quot;,&quot;Government expenditure&quot;,&quot;Household expenditure&quot;,&quot;Imports&quot;)) #to order IndicatorName
+
+tidy_GDP_data_frame_Order %&gt;%
+  group_by(Country)%&gt;%
+  ggplot(aes(x = Year, y = GDP, color = IndicatorName, group = IndicatorName))+
+  geom_line(size = 1)+
+  facet_wrap(~Country)+
+  scale_x_discrete(breaks = seq(1970,2017, by = 10))+
+  labs(title = &quot;GDP components over time&quot;, 
+       subtitle = &quot;In constant 2010 USD&quot;,
+       y = &quot;Bilion US$&quot;,
+       x = &quot;&quot;)+
+  theme_bw()+
+    NULL</code></pre>
+<p><img src="/blogs/GDP_files/figure-html/unnamed-chunk-1-1.png" width="912" style="display: block; margin: auto;" /></p>
+</div>
+</div>

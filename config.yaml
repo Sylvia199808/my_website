@@ -74,7 +74,7 @@ params:
         url: blogs/PJ
       - name: Essay
         url: /img/blogs/song_at_sunset.pdf
-      - name: Photo
+      - name: Photo Album
         url: blogs/sunset
     menu: Menu
     subtitle: Portfolio Website
@@ -109,7 +109,7 @@ params:
   two:
     buttonText: Get Started
     enable: yes
-    subtitle: "Thanks for reading my website.
+    subtitle: "Thanks for visiting my website.
     \r\n I love to make friends and would like to share more with you.
     \r\n If you are interested, please find my social media accounts down below and get connected!"
     title: Get Connected

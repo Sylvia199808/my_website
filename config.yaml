@@ -99,7 +99,7 @@ params:
       - image: whitman.jpg
         subtitle: Analysis of a Whitman's poem
         title: WALT WHITMAN’S “SONG AT SUNSET”: BROAD LOVE FOR NATURE, AMERICA AND PEOPLE.
-        url: blogs/song_at_sunset
+        url: blogs/song_at_sunset.pdf
       - image: pic06.jpg
         subtitle: Feugiat Amet Tempus
         title: Etiam

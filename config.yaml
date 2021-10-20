@@ -1,7 +1,7 @@
 baseURL: https://sylvia-hu.netlify.app/
 languageCode: en-us
 title: Portfolio website for Sylvia Hu
-theme: Eureka
+theme: MyPortfolio
 googleAnalytics: ''
 disqusShortname: ''
 params:
@@ -9,7 +9,7 @@ params:
     buttonText: Get Started
     subtitle: |-
       Welcome to Sylvia's portfolio website! Here I post my biography, blogs as well as data analysis projects.
-    title: Hi, my name is Xingyu Hu
+    title: Hi, my name is Sylvia Hu
   blog: {}
   contact:
     address:

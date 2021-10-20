@@ -101,9 +101,9 @@ params:
         title: Broad Love For Nature America And People
         url: /img/blogs/song_at_sunset.pdf
       - image: pic06.jpg
-        subtitle: Feugiat Amet Tempus
-        title: Etiam
-        url: blogs/ipsum
+        subtitle: Photo Album of Sunset
+        title: Sunset at California
+        url: blogs/sunset
   two:
     buttonText: Get Started
     enable: yes

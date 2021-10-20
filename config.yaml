@@ -72,8 +72,10 @@ params:
         url: blogs/About_Sylvia
       - name: R Analysis
         url: blogs/PJ
-      - name: Essays
+      - name: Essay
         url: /img/blogs/song_at_sunset.pdf
+      - name: Photo
+        url: blogs/sunset
     menu: Menu
     subtitle: Portfolio Website
     title: Sylvia Hu
@@ -87,15 +89,15 @@ params:
       - image: stock01.jpg
         subtitle: DJIA performance
         title: Risk Return of DJIA Industrial Average
-        url: blogs/risk_return
+        url: blogs/PJ/risk_return
       - image: rating.jpg
         subtitle: Difference for Spielberg and Tim Burton
         title: Mean IMDB Ratings
-        url: blogs/directors
+        url: blogs/PJ/directors
       - image: gdp01.jpg
         subtitle: Comparison among France, China and United States
         title: GDP components over time and among countries
-        url: blogs/GDP
+        url: blogs/PJ/GDP
       - image: whitman.jpg
         subtitle: Analysis of a Whitman's Poem
         title: Broad Love For Nature America And People

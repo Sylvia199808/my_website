@@ -16,22 +16,25 @@ Hi there! My name is Sylvia Hu. I was born in [Chongqing](https://en.wikipedia.o
 Here are a few things to help you know more about me :)
 
 ## Academics
-    * I graduated from [Fudan University](https://www.fudan.edu.cn/en/) with my BBA in Financial Management in Jun.2021.
-    * Before studying business, I studied Chemistry for 2 years during undergraduate study.
-    * I went to [University of San Diego](https://www.sandiego.edu/) for exchange in Fall 2019. 
+* I graduated from [Fudan University](https://www.fudan.edu.cn/en/) with my BBA in Financial Management in Jun.2021.
+* Before studying business, I studied Chemistry for 2 years during undergraduate study.
+* I went to [University of San Diego](https://www.sandiego.edu/) for exchange in Fall 2019. 
     
 ## Career
-    * During my undergraduate study, I interned in many sectors of Financial Industry:
-        - [Spring Gate Capital](https://spring-gate.com/): Equity Investment Research Analyst
-        - [China International Capital Corporation](https://en.cicc.com/): Investment Banking Intern
-        - [China Securities](https://www.csc108.com/newsiteindex/index.jspx): Bond Underwriting Intern
+During my undergraduate study, I interned in many sectors of Financial Industry:
+
+* [Spring Gate Capital](https://spring-gate.com/): Equity Investment Research Analyst
+* [China International Capital Corporation](https://en.cicc.com/): Investment Banking Intern
+* [China Securities](https://www.csc108.com/newsiteindex/index.jspx): Bond Underwriting Intern
  
 ## Life
-    * I like painting a lot for it is relief from stress and always gives me sense of tranquility.
-    * I love traveling and plan to explore more during this year in London. Hope Covid-19 situation gets better soon!
-    * I am obsessed with cooking and want to be a vloger in the future!
-    * I am a pet lover and my family keep a dog called Rocker.
-
+* I like painting a lot for it is relief from stress and always gives me sense of tranquility.
+```{r, echo=FALSE}
+knitr::include_graphics("/img/painting.jpg", error =FALSE)
+```
+* I love traveling and plan to explore more during this year in London. Hope Covid-19 situation gets better soon!
+* I am obsessed with cooking and want to be a vloger in the future!
+* I am a pet lover and my family keep a dog called Rocker.
 ```{r, echo=FALSE}
 knitr::include_graphics("/img/rocker.jpg", error =FALSE)
 ```

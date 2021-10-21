@@ -89,7 +89,7 @@ params:
         title: About me
         url: blogs/About_Sylvia
       - image: chongqing.jpg
-        subtitle: A Youtube Video Introducing My Hometown Chongqing
+        subtitle: A Youtube Video - Bird's Eye View of Chongqing
         title: Mountain City Chongqing
         url: https://youtu.be/DKiyeZf4gLc
       - image: rating.jpg

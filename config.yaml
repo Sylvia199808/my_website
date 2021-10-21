@@ -71,7 +71,7 @@ params:
       - name: Biography
         url: blogs/About_Sylvia
       - name: Hometown
-        url: https://www.youtube.com/watch?v=i5kQ-oVLyj8&t=14s
+        url: https://youtu.be/DKiyeZf4gLc
       - name: R Analysis
         url: blogs/PJ
       - name: Essay
@@ -91,7 +91,7 @@ params:
       - image: chongqing.jpg
         subtitle: A Youtube Video Introducing My Hometown Chongqing
         title: Mountain City Chongqing
-        url: https://www.youtube.com/watch?v=i5kQ-oVLyj8&t=14s
+        url: https://youtu.be/DKiyeZf4gLc
       - image: rating.jpg
         subtitle: Difference for Spielberg and Tim Burton
         title: Mean IMDB Ratings

@@ -1,12 +1,13 @@
 ---
 date: "2021-10-21"
-description: How has the CPI and its components changed over the last few years # the title that will show up once someone gets to this page
+description: CPI Components Yearly Change # the title that will show up once someone gets to this page
 draft: false
 image: cpi02.jpg # save picture in \static\img\blogs. Acceptable formats= jpg, jpeg, or png . Your iPhone pics wont work
 
 keywords: ""
 slug: CPI # slug is the shorthand URL address... no spaces plz
 title: CPI Components Yearly Change
+subtitle: How has the CPI and its components changed over the last few years
 ---
 
 

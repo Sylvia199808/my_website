@@ -7,7 +7,6 @@ image: cpi02.jpg # save picture in \static\img\blogs. Acceptable formats= jpg, j
 keywords: ""
 slug: CPI # slug is the shorthand URL address... no spaces plz
 title: CPI Components Yearly Change
-subtitle: How has the CPI and its components changed over the last few years
 ---
 
 

@@ -70,6 +70,8 @@ params:
         url: '#'
       - name: Biography
         url: blogs/About_Sylvia
+      - name: Hometown
+        url: https://www.youtube.com/watch?v=i5kQ-oVLyj8&t=14s
       - name: R Analysis
         url: blogs/PJ
       - name: Essay

@@ -41,12 +41,12 @@ params:
         text: 'Design: '
         url: https://www.html5up.net
     social:
-      - icon: fa-twitter
-        label: Twitter
-        url: https://www.twitter.com/SylviaHu08
-      - icon: fa-facebook
-        label: Facebook
-        url: https://www.facebook.com/xingyu.hu.35
+   ##   - icon: fa-twitter
+   ##     label: Twitter
+   ##     url: https://www.twitter.com/SylviaHu08
+   ##   - icon: fa-facebook
+   ##     label: Facebook
+   ##     url: https://www.facebook.com/xingyu.hu.35
       - icon: fa-instagram
         label: Instagram
         url: https://www.instagram.com/sylvia_xyhu
@@ -86,10 +86,10 @@ params:
         subtitle: Biography
         title: About me
         url: blogs/About_Sylvia
-      - image: stock01.jpg
-        subtitle: DJIA performance
-        title: Risk Return of DJIA Industrial Average
-        url: blogs/PJ/risk_return
+      - image: chongqing.jpg
+        subtitle: A Youtube Video Introducing My Hometown Chongqing
+        title: Mountain City Chongqing
+        url: https://www.youtube.com/watch?v=i5kQ-oVLyj8&t=14s
       - image: rating.jpg
         subtitle: Difference for Spielberg and Tim Burton
         title: Mean IMDB Ratings
